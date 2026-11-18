@@ -37,10 +37,13 @@ print("\n\n✔️ All set! Enjoy your journey.\n")
 # 🛠️ YOUR TURN TO CUSTOMIZE!
 # ==========================
 # Add your own fun facts or sections to the passport here:
+music = input("🎵 What's your favorite music genre? ")
+snack = input("🍔 What's your favorite snack? ")
+animal = input("🐾 What's your favorite animal? ")
 
 # 👉 Example:
 hobby = input("🕹️ What's your favorite hobby? ")
-game = input("🎮 What's your favorite video game? ")
+game = input("🎮 What's your favorite video game?")
 
 # Print custom section
 print("===== BONUS INFO =====")
@@ -50,3 +53,10 @@ print("======================")
 
 # CHALLENGE: Add at least 2 more sections below!
 # For example: favorite snack, favorite animal, favorite song, etc.
+print(f"🎵 Favorite Music Genre: {music}")
+print(f"🍔 Favorite Snack: {snack}")
+print(f"🐾 Favorite Animal: {animal}")
+print("======================")
+print(f"🎨 Hobby: {hobby}")
+print(f"🎮 Favorite Game: {game}")
+
